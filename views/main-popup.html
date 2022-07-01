@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courier+Prime&family=Fredericka+the+Great&family=Special+Elite&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../styles/materialize/materialize.min.css">
+    <link rel="stylesheet" href="../styles/main-popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-heading">
+            Salesforce Metadata Explorer.
+        </div>
+        <div>
+            <div class="card-panel" id="authorize-panel" style="display: none;">
+                <div id="authorize_msg"></div>
+                <a class="waves-effect waves-teal btn-flat" id="authorize">Authorize</a>
+            </div>
+            
+            <div class="card-panel teal lighten-5" id="logged-in-panel" style="display: none;">
+                <div id="username"></div>
+                <div id="salesforce_url"></div>
+                <div class="row">
+                    <div class="col s6">
+                        <a class="waves-effect waves-teal btn-flat" id="login">Login</a>
+                    </div>
+                    <div class="col s6">
+                        <a class="waves-effect waves-red btn-flat" id="forget">Forget</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="../scripts/materialize/materialize.min.js"></script>
+    <script src="../scripts/main-popup.js"></script>
+    <script src="../scripts/constants.js"></script>
+</body>
+</html>

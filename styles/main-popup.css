@@ -1,0 +1,49 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    /* height: 400px; */
+    width: 350px;
+    padding: 20px;
+    background-color: #efefef;
+}
+
+.main-heading {
+    font-size: 21px;
+    padding-bottom: 10px;
+    /* text-shadow: 1px 1px 2px;
+    color:rgb(0, 126, 168) */
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(128 128 128);
+}
+
+#authorize_msg {
+    font-size: 14px;
+    color: darkcyan;
+    font-family: 'Special Elite', cursive;
+}
+
+#logged-in-panel {
+    padding: 10px;
+}
+
+#username {
+    font-size: 18px;
+    color: rgb(0, 93, 124);
+    padding: 2px;
+    font-family: 'Special Elite', cursive;
+}
+
+#salesforce_url {
+    font-size: 12px;
+    color: rgb(0, 125, 167);
+    padding: 2px;
+    font-family: 'Special Elite', cursive;
+}
+
+#login, #forget, #authorize {
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+}
